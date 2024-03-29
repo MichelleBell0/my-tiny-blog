@@ -1,0 +1,63 @@
+/* Basic styling for all headers in the application */
+body {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    max-width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 10px black double;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 85vh;
+}
+
+/* Adding style to the dark mode toggle switch */
+#dark-mode-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    border-radius: 50px;
+}
+
+.darkmode {
+    background: black;
+    color: white;
+}
+
+.darkmode header {
+    border-bottom: 10px white double;
+}
+
+.darkmode h2 {
+    color: white;
+}

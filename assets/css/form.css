@@ -1,0 +1,12 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#submit {
+    margin-top: 20px;
+    width: 255px;
+    border-radius: 8px;
+}

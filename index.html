@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tiny Blog</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/form.css" />
+</head>
+<body>
+    <header>
+        <button id="dark-mode-toggle">
+            <img src="./assets/images/darkmode-filled.png" alt="" width="20px" height="auto" id="toggle-img">
+        </button>
+    </header>
+    <main>
+        <div class="card">
+            <p>fhsdbfjhdsfhdbsjfhbsdjhfbdjsbfjdsbhfjdhsb</p>
+        </div>
+        <div class="card">
+            <h2>What's on your mind?</h2>
+            <form method="POST">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" />
+                </div>
+                <div class="input-group">
+                    <label for="title">Title</label>
+                    <input type="text" name="title" id="title" />
+                </div>
+                <div class="input-group">
+                    <label for="content">Content</label>
+                    <input type="text" name="content" id="content" />
+                </div>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <script src="./assets/js/logic.js"></script>
+    <script src="./assets/js/form.js"></script>
+</body>
+</html>
