@@ -31,6 +31,15 @@ main {
     height: auto;
 }
 
+h1 a{
+    padding: 100px;
+    color: rgb(30, 158, 98);
+    border: 1px rgb(44, 44, 44) solid;
+    border-radius: 60% 30%;
+    box-shadow: 5px 10px 8px #888888;
+    text-decoration: none;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -61,3 +70,4 @@ main {
 .darkmode h2 {
     color: white;
 }
+
